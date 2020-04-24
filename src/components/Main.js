@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+// import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -28,30 +28,29 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major" style={{color: '#3E7CB3'}}>Projects </h2>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            <h3><span className="icon fa-cogs" style={{color: '#3E7CB3'}}></span> IOT</h3>
+            Project with internet of things. Using Tcp servers
+
           </p>
+
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            <h3><span className="icon fa-cogs" style={{color: '#3E7CB3'}}></span> API</h3>
+             Connectivity project with third-party apis
+
           </p>
+
+
+
+          <p>
+            <h3><span className="icon fa-cogs" style={{color: '#3E7CB3'}}></span> DEV</h3>
+            General web development
+
+          </p>
+
+
           {close}
         </article>
 
@@ -91,19 +90,25 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
+          <h2 className="major" style={{color: '#3E7CB3'}}>About</h2>
+          {/* <span className="image main">
             <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          </span> */}
+          <h3 className="fondo">
+            I like to program with the following technologies:
+          </h3>
+
+          <br/>
+          
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> Javascript</h4>
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> NodeJS</h4>
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> ReactJS</h4>
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> NodeJs</h4>
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> PHP</h4>
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> MySql</h4>
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> MongoDB</h4>
+            <h4><span className="icon fa-arrow-right" style={{color: '#3E7CB3'}}></span> Ionic</h4>
+
           {close}
         </article>
 
@@ -114,8 +119,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <h2 className="major" style={{color: '#3E7CB3'}}>Contact</h2>
+
+          
+          
+          <h3><a href="mailto:marcos.pir94@gmail.com?subject=Contact-From-Landing-Page">marcos.pir94@gmail.com </a></h3>
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -136,29 +145,29 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/ChinoPirani"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://facebook.com/Marcos2523" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://instagram.com/chinopirani" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/piranimarcos"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
