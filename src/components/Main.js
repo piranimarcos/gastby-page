@@ -149,20 +149,10 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/ChinoPirani"
-                className="icon fa-twitter"
+                href="https://www.linkedin.com/in/marcos-pirani-10234b113"
+                className="icon fa-linkedin"
               >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://facebook.com/Marcos2523" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com/chinopirani" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+                <span className="label">Linkedin</span>
               </a>
             </li>
             <li>
@@ -171,6 +161,14 @@ class Main extends React.Component {
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://gitlab.com/piranimarcos"
+                className="icon fa-gitlab"
+              >
+                <span className="label">Gitlab</span>
               </a>
             </li>
           </ul>
